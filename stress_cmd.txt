@@ -1,0 +1,2 @@
+# terminal command to increase CPU utilization for 5 mins to observe autoscaling
+stress --cpu 2 --io 1 --vm 1 --vm-bytes 128M --timeout 5m
